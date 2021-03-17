@@ -2,3 +2,58 @@ html,h1,h2,h3,h4,a,td{
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#navbar ul {
+    display: none;
+    background-color: #f90;
+    position: absolute;
+    top: 100%;
+  }
+  #navbar li:hover ul { display: block; }
+  #navbar, #navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  #navbar {
+    height: 50px;
+    background-color: #343434;
+    padding-left: 25px;
+    min-width: 470px;
+  }
+  #navbar li {
+    float: left;
+    position: relative;
+    height: 100%;
+  }
+
+  #navbar li h3 {padding: 8px;}
+  #navbar li a {
+    display: block;
+    padding: 14px;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  #navbar ul li { float: none; }
+  #navbar li a:hover { background-color: #ffffff; color: black;}
+  #navbar ul li:hover { background-color: #666; }
+
+.shikimori{
+  color: white;
+}
+
+html{
+  background-color: gray;
+}
+
+.container{width: 4000px;}
+
+.searcher{margin: 10px; width: 700px; border-radius: 1cm ;}
+
+.icon{width: 35px; background-color: white; border-radius:15px; margin-top: 6px;}
+
+
+.container{background-color: white;}
+.html{background-color: gray;}

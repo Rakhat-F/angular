@@ -1,23 +1,25 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<title>{{title}}</title>
 
-<title>Individual Project</title>
-
-
-
-<div style = "text-align: center;"> 
-
-  <h1>Angular Routing</h1>
+<html>
+  <head></head>
+<body>
+  <ul id="navbar">
+    <li><a routerLink = "/homes" routerLinkActive = "active" style="font-size: 15px;">{{title}}</a></li>
+    <li><a routerLink = "/animes" routerLinkActive = "active"> Animes </a><br></li>
+    <li><a routerLink = "/mangas" routerLinkActive = "active"> Mangas </a> <br></li>
+    <li><a routerLink = "/ranobes" routerLinkActive = "active"> Ranobes </a></li>
+    <li><input class = "searcher" type = "search"></li>
+    <li> <img src = {{icon1}} class = "icon"></li>
+    <li> <img src = {{icon2}} class = "icon" style="margin-left: 10px;"></li>
+    <li> <img src = {{icon3}} class = "icon" style="margin-left: 10px;"></li>
+    <app-sign-in  style = "float: right; color: white; margin-right: 30px; margin-top:10px;" ></app-sign-in>
+  </ul>
+   
+<div class ="container">
+<router-outlet>
+  
+</router-outlet>
 </div>
-
-<app-sign-in></app-sign-in>
-
-<div style = "text-align: left;">
-  <h2> Routes</h2>
-  <nav>
-    <a routerLink = "/animes" routerLinkActive = "active"> Animes </a><br>
-    <a routerLink = "/mangas" routerLinkActive = "active"> Mangas </a> <br>
-  </nav>
-
-</div>
-
-
-<router-outlet></router-outlet>
+</body>
+</html>

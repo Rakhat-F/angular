@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-sign-in',
@@ -7,9 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class SignInComponent implements OnInit {
 
-  
-  
   @Input('loggedIn') loginFlag = true;
+  public name = "Rakhat";
    
   constructor() { }
 

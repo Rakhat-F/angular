@@ -1,0 +1,41 @@
+ 
+
+  img { margin: 40px; margin-top: 10px; margin-bottom: 10px;}
+
+
+  .text{margin-top: 20px;}
+
+  .login{padding-left: 10px; margin-bottom: 40px; background-color: #e9f7fb; width: 300px; height: 300px; }
+
+  .button{margin-top: 50px;}
+  
+  .anime{margin: auto;  margin-left: 70px;}
+
+  .anime h5{text-align: center; width: 300px; background-color: #eeeef1; margin: 10px; padding: 5px;}
+
+  .anime h5:hover {background-color: #176093; color: #fff; appearance: unset;}
+  .anime h4:hover { color: #f90; text-decoration: underline; }
+  .anime h4{text-align: left; width: 300px; background-color: #fedddf; margin: 10px; padding: 5px; color: #fc575e;}
+
+  .recomendation{float: right;}
+  .recomendation h5:hover {background-color: #176093; color: #fff; appearance: unset;}
+  .recomendation h4:hover { color: #f90; text-decoration: underline; }
+  .recomendation h4{text-align: left; width: 300px; background-color: #fedddf; margin: 10px; padding: 5px; color: #fc575e;}
+  .recomendation h5{text-align: center; width: 300px; background-color: #eeeef1; margin: 10px; padding: 5px;}
+
+
+  div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
+img {
+  width: 150px;
+  height: 200px;
+  background-color: grey;
+}
+ 
+.caption {
+  display: block;
+}
