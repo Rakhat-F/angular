@@ -4,6 +4,7 @@ import { RanobeComponent } from './ranobe/ranobe.component'
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
+  template: `<p>Today is the {{ date | date }}</p>`,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
@@ -17,4 +18,6 @@ export class AppComponent {
 
   public name = "Rakhat";
   userLoggedIn = false;  
+
+  date = new Date(2021, 3, 18);
 }

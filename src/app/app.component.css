@@ -57,3 +57,59 @@ html{
 
 .container{background-color: white;}
 .html{background-color: gray;}
+#underbar ul {
+  display: none;
+  background-color: #f90;
+  position: absolute;
+  top: 100%;
+}
+#underbar li:hover ul { display: block; }
+#underbar, #underbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#underbar {
+  height: 40px;
+  background-color: #eef1f2;
+  min-width: 500px;
+}
+#underbar li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+#underbar li p {
+  display: block;  
+  padding: 5px;
+  width: 100px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+#underbar ul li { float: none; }
+#underbar li p:hover { color: #f90; text-decoration: underline; }
+#underbar ul li:hover { background-color: #666; }
+
+img { margin: 40px; margin-top: 10px; margin-bottom: 10px;}
+
+.text{margin-top: 20px;}
+
+.login{padding-left: 10px; margin-bottom: 40px; background-color: #e9f7fb; width: 300px; height: 300px; float: left;}
+
+.button{margin-top: 50px;}
+
+.anime{margin: auto; float: left; margin-left: 70px;}
+
+.anime h5{text-align: center; width: 300px; background-color: #eeeef1; margin: 10px; padding: 5px;}
+
+.anime h5:hover {background-color: #176093; color: #fff; appearance: unset;}
+.anime h4:hover { color: #f90; text-decoration: underline; }
+.anime h4{text-align: left; width: 300px; background-color: #fedddf; margin: 10px; padding: 5px; color: #fc575e;}
+
+.recomendation{float: left;}
+.recomendation h5:hover {background-color: #176093; color: #fff; appearance: unset;}
+.recomendation h4:hover { color: #f90; text-decoration: underline; }
+.recomendation h4{text-align: left; width: 300px; background-color: #fedddf; margin: 10px; padding: 5px; color: #fc575e;}
+.recomendation h5{text-align: center; width: 300px; background-color: #eeeef1; margin: 10px; padding: 5px;}
+
