@@ -8,6 +8,8 @@ import { NewsComponent } from './news/news.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { RanobeComponent } from './ranobe/ranobe.component';
+import { FormsModule } from '@angular/forms';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -17,11 +19,13 @@ import { RanobeComponent } from './ranobe/ranobe.component';
     NewsComponent,
     LoginComponent,
     HomeComponent,
-    RanobeComponent
+    RanobeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

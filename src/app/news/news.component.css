@@ -1,3 +1,9 @@
 .news-feed{
     margin: 50px;
 }
+
+img { margin: 40px; margin-top: 10px; margin-bottom: 10px; float: left;}
+
+.opw{margin: 40px; margin-top: 10px; margin-bottom: 10px; float: left;}
+
+.pow{background-color: blue;}

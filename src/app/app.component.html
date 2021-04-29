@@ -14,14 +14,15 @@
     <li> <img src = {{icon2}} class = "icon" style="margin-left: 10px;"></li>
     <li> <img src = {{icon3}} class = "icon" style="margin-left: 10px;"></li>
      
-    <app-sign-in  style = "float: right; color: white; margin-right: 30px; margin-top:10px;" ></app-sign-in>
+    <sign-in  style = "float: right; color: white; margin-right: 30px; margin-top:10px;" ></sign-in>
   </ul>
-  <p>Today is the {{ date | date }}</p>
+  
 <div class ="container">
-<router-outlet> 
-</router-outlet>
+<router-outlet></router-outlet>
 </div>
 
+<app-news></app-news>
+<p style = "float: right;">Today is the {{ date | date }}</p>
 </body>
 
 <footer></footer>

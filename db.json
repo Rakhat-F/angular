@@ -1,0 +1,44 @@
+{
+    "posts": [
+      {
+        "id": 0,
+        "title": "One Piece",
+        "releaseDate": "July 04th, 2000"
+      },
+      {
+        "id": 1,
+        "title": "Naruto",
+        "releaseDate": "June 14th, 2012"
+      },
+      {
+        "id": 2,
+        "title": "Cowboy Bebop",
+        "releaseDate": "September 14, 2016"
+      },
+      {
+        "id": 3,
+        "title": "Gintama",
+        "releaseDate": "March 23, 2017"
+      },
+      {
+        "id": 4,
+        "title": "Bleach",
+        "releaseDate": "November 1, 2017"
+      },
+      {
+        "id": 5,
+        "title": "Naruto",
+        "releaseDate": "May 4th, 2018"
+      },
+      {
+        "id": 6,
+        "title": "One Piece",
+        "releaseDate": "October 18, 2018"
+      },
+      {
+        "id": 6,
+        "title": "Gintama",
+        "releaseDate": "May 28, 2019"
+      }
+    ]
+  }
